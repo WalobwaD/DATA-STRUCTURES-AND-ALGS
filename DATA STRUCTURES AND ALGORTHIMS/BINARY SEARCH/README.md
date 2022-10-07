@@ -6,3 +6,8 @@
         <li>Use of while loop</li>    
     </ol>
 </h5>
+
+
+
+<h2 align="center" >Sliding window</h2>
+<h5>Searching for the maximum sum of the given window size in an array</h5>
