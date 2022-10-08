@@ -14,7 +14,7 @@ def maxSum(arr, windowsize):                #function that calculate the maximum
         
     return max_sum                                              #returns the maximum sum gotten above
 
-arr = [80, -50, 90, 1]            #this is the array
+arr = [80, -50, 90, 1]              #this is the array
 k=2                                 #this is the window size
 answer = maxSum(arr, k)             #this calls out the function and sets its parameters to arr and k and saves it to variable answer
 print(answer)                       #prints out the answer

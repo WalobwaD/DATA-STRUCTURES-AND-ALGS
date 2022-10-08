@@ -10,11 +10,11 @@ def binarysearch(arr, target): # this is a function to search for the target in 
     while(left<=right):             #as long as the left pointer is less than or equal to the position of the right pointer
         mid = (left + right)//2     #find the middle item of the array (5/2=2)
         
-        if (arr[mid] == target):    #if the middles item is equal to our target
+        if (arr[mid] == target):    #if the middle item is equal to our target
             return mid              #we have found our target stop looping
         elif (arr[mid] < target ):  #if the middle item is less than our target
             left = mid + 1          #take the left pointer to the middle and ignore the items behind it
-        else:                       #if the middle array is greater than the target
+        else:                       #if the middle item is greater than the target
             right = mid - 1         #take the right pointer to the middle
     return -1                       #if the target is not in the array return -1
 
